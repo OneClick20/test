@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Test Page</title>
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+      <img src="image/Logo.svg" alt="Логотип" class="logo">
+
+      <div class="user">
+        <img src="image/Avatar.svg" alt="Аватар" class="user__logo">
+        <div class="user__text">Имя Фамилия</div>
+        <a href="#" class="user__exit">
+          <img src="image/Exit.svg" alt="Выход">
+        </a>
+      </div>
+  </header>
+
+  <nav>
+    <ul class="breadcrumb">
+      <li><a href="#">Сотрудники</a></li>
+      <li><a href="#" class="active">Виктория Беляева, belyeva@companyname</a></li>
+    </ul>
+  </nav>
+
+  <aside>
+    <div class="input-group">
+      <button class="button-search">
+        <img class="icon-search" src="image/Search.svg" alt="Поиск">
+      </button>
+      <input type="search" name="search" class="input-search" placeholder="Быстрый поиск..." autocomplete="off">
+    </div>
+
+    <nav class="staff">
+      <ul class="staff-list">
+
+        <li class="staff-item staff-item_grey">
+          <img src="image/Ivanova.png" alt="Анна Иванова" class="staff-item__image">
+          <div class="staff-item__text">
+            <div class="staff-item__name">Анна Иванова</div>
+            <div class="staff-item__post">Менеджер, Отдел продаж</div>
+            <div class="staff-item__status dismissal">на увольнении</div>
+          </div>
+          <div class="staff-item__number staff-item__number_grey">12</div>
+        </li>
+
+        <li class="staff-item">
+          <img src="image/Belyaeva.png" alt="Виктория Беляева" class="staff-item__image">
+          <div class="staff-item__text">
+            <div class="staff-item__name">Виктория Беляева</div>
+            <div class="staff-item__post">Менеджер, Отдел продаж</div>
+            <div class="staff-item__status vacation">в отпуске</div>
+          </div>
+          <div class="staff-item__number">247</div>
+        </li>
+
+        <li class="staff-item staff-item_grey">
+          <img src="image/Surkov.png" alt="Виктор Сурков" class="staff-item__image">
+          <div class="staff-item__text">
+            <div class="staff-item__name">Виктор Сурков</div>
+            <div class="staff-item__post">Менеджер, Отдел продаж</div>
+            <div class="staff-item__status"></div>
+          </div>
+          <div class="staff-item__number staff-item__number_grey">0</div>
+        </li>
+
+      </ul>
+    </nav>
+  </aside>
+
+    <div class="vertical-line"></div>
+
+  <main>
+    <div class="data">
+      <div class="worker">
+
+        <div class="worker-text">
+          <div class="worker-text__logo">
+            <img src="image/Belyaeva.png" alt="Виктория Беляева" class="worker-text__photo">
+            <img src="image/Smile.svg" alt="Смайлик" class="worker-text__smile">
+          </div>
+          <div class="worker-text__present">
+
+            <div class="present__name">Виктория Беляева</div>
+            <div class="present__post">Менеджер, Отдел продаж</div>
+          </div>
+        </div>
+
+        <div class="worker-activity">
+          <div class="worker-activity__last-activity"><span class="last-activity_grey">Последняя активность</span> сегодня в 12:22</div>
+          <div class="worker-activity__levels">
+            <div class="level__item">
+              <div class="level-text">Уровень риска</div>
+              <div class="level-number">157 <span class="level-percent level-percent_red">-100%</span></div>
+            </div>
+            <div class="level__item">
+              <div class="level-text">Продуктивность</div>
+              <div class="level-number">86% <span class="level-percent">+3%</span></div>
+            </div>
+            <div class="level__item">
+              <div class="level-text">Индекс активности</div>
+              <div class="level-number">2.4% <span class="level-percent level-percent_green">+14%</span></div>
+            </div>
+            <div class="level__item">
+              <img src="image/icons/Ok.svg" alt="Ok" class="icon">
+              <img src="image/icons/Video.svg" alt="Video" class="icon">
+              <img src="image/icons/Pc.svg" alt="Pc" class="icon">
+              <img src="image/icons/Plus.svg" alt="Plus" class="icon">
+            </div>
+          </div>
+        </div>
+
+        <a href="#" class="back-to-list">к списку сотрудников</a>
+
+      </div>
+
+      <div class="container">
+          <div class="container-header">Аномалии</div>
+          <div class="anomalies">
+            <div class="anomaly__list">
+              <div class="anomaly__item">
+                <img src="image/Warning.svg" alt="Warning" class="anomaly-logo">
+                <div class="anomaly-text">Использование более одного аккаунта в соцсетях или мессенджерах</div>
+              </div>
+              <div class="anomaly__item">
+                <img src="image/Warning.svg" alt="Warning" class="anomaly-logo">
+                <div class="anomaly-text">Первое использование устройства</div>
+              </div>
+              <div class="anomaly__item">
+                <img src="image/Warning.svg" alt="Warning" class="anomaly-logo">
+                <div class="anomaly-text">Отсутствие более 40 дней</div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="container">
+        <div class="container-header">Основные показатели</div>
+        <div class="indicators">
+          <div class="indicators-text">Данные не найдены</div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="statistics-list">
+          <div class="statistics-item">
+            <div class="statistics-item__text">Приложения и категории</div>
+            <table class="applications">
+              <tr>
+                <th><div class="applications-head">Категории приложений</div></th>
+                <th><div class="applications-head">время</div></th>
+                <th><div class="applications-head">%</div></th>
+                <th><div class="applications-head">рост</div></th>
+              </tr>
+              <tr>
+                <td><div class="applications-cell"><div class="square square_yellow"></div>Мессенджеры</div></td>
+                <td><div class="applications-cell time time_blue">20:55</div></td>
+                <td><div class="applications-cell">18</div></td>
+                <td><div class="applications-cell">+2%</div></td>
+              <tr>
+                <td><div class="applications-cell"><div class="square square_yellow"></div>Браузеры</div></td>
+                <td><div class="applications-cell time time_blue">15:11</div></td>
+                <td><div class="applications-cell">12</div></td>
+                <td><div class="applications-cell">-3%</div></td>
+              </tr>
+              <tr>
+                <td><div class="applications-cell"><div class="square square_pink"></div>Игры</div></td>
+                <td><div class="applications-cell time time_blue">13:11</div></td>
+                <td><div class="applications-cell">7</div></td>
+                <td><div class="applications-cell">0</div></td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="statistics-item">
+            <div class="statistics-item__text">Сайты и категории</div>
+            <table class="sait">
+              <tr>
+                <th><div class="sait-head">Категории приложений</div></th>
+                <th><div class="sait-head">время</div></th>
+                <th><div class="sait-head">%</div></th>
+                <th><div class="sait-head">рост</div></th>
+              </tr>
+              <tr>
+                <td><div class="sait-cell"><div class="square square_yellow"></div>Поисковики</div></td>
+                <td><div class="sait-cell time time_blue">20:55</div></td>
+                <td><div class="sait-cell">18</div></td>
+                <td><div class="sait-cell">+2%</div></td>
+              <tr>
+                <td><div class="sait-cell"><div class="square square_green"></div>Новостные порталы</div></td>
+                <td><div class="sait-cell time time_blue">15:11</div></td>
+                <td><div class="sait-cell">12</div></td>
+                <td><div class="sait-cell">-3%</div></td>
+              </tr>
+              <tr>
+                <td><div class="sait-cell"><div class="square square_green"></div><span class="size">Сайты с неопределенным наполнением</span></div></td>
+                <td><div class="sait-cell time time_blue">13:11</div></td>
+                <td><div class="sait-cell">7</div></td>
+                <td><div class="sait-cell">0</div></td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="statistics-item">
+            <div class="statistics-item__text">Дисциплина</div>
+            <table  class="discipline">
+              <tr>
+                <th><div class="discipline-head discipline-head_first">Дата</div></th>
+                <th><div class="discipline-head">Приход на работу</div></th>
+                <th><div class="discipline-head">Уход с работы</div></th>
+                <th><div class="discipline-head">Время на работе</div></th>
+              </tr>
+              <tr>
+                <td><div class="discipline-cell">29.09</div></td>
+                <td><div class="discipline-cell">08:46 <span class="difference difference_red">+16 мин</span></div></td>
+                <td><div class="discipline-cell">08:46 <span class="difference difference_red">+16 мин</span></div></td>
+                <td><div class="discipline-cell">09:06 <span class="difference difference_green">+6 мин</span></div></td>
+              </tr>
+              <tr>
+                <td><div class="discipline-cell">28.02</div></td>
+                <td><div class="discipline-cell">08:27 <span class="difference difference_green">-3 мин</span></div></td>
+                <td><div class="discipline-cell">08:27 <span class="difference difference_green">-3 мин</span></div></td>
+                <td><div class="discipline-cell">08:36 <span class="difference difference_red">-24 мин</span></div></td>
+              </tr>
+              <tr>
+                <td><div class="discipline-cell">25.02</div></td>
+                <td><div class="discipline-cell">08:42 <span class="difference difference_red">+12 мин</span></div></td>
+                <td><div class="discipline-cell">08:36 <span class="difference difference_red">-24 мин</span></div></td>
+                <td><div class="discipline-cell">08:42 <span class="difference difference_red">+12 мин</span></div></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+
+</body>
+</html>
